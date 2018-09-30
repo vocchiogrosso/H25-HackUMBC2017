@@ -1,0 +1,24 @@
+{
+  "homepage": "http://vincentocchio.com/H25-HackUMBC/my-app",
+  "name": "reminderpro",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "gh-pages": "^1.0.0",
+    "moment": "^2.18.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.0.14",
+    "redux": "^3.7.2",
+    "sfcookies": "^1.0.2"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
